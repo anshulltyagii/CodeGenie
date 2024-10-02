@@ -2,8 +2,6 @@
 
 "Programmers have programmed themselves out of jobs" - Unknown
 
-[![tddGPT: ReactJS Counter App with GPT3.5](https://cdn.loom.com/sessions/thumbnails/7f56ab1b478049baa299813c223526bd-with-play.gif)](https://www.loom.com/share/7f56ab1b478049baa299813c223526bd)
-
 CodeSage is an autonomous coding agent that builds applications in ReactJS, Flask, Express, and more, all while adhering to the Test-Driven Development (TDD) methodology. It operates entirely without human intervention. Beginning with a project plan, CodeSage translates requirements into tests, develops code based on those tests, and debugs until all tests pass. The TDD framework keeps the agent focused and goal-oriented.
 
 **Key Highlights:**
