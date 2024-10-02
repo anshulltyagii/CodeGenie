@@ -2,6 +2,8 @@
 
 "Programmers have programmed themselves out of jobs" - Unknown
 
+https://github.com/anshulltyagii/CodeGenie/blob/7aed224e961ae3dc98fd3da8fb7edec0c8b9b681/CodeGenie.mp4
+
 CodeGenie is an autonomous coding agent that builds applications in ReactJS, Flask, Express, and more, all while adhering to the Test-Driven Development (TDD) methodology. It operates entirely without human intervention. Beginning with a project plan, CodeGenie translates requirements into tests, develops code based on those tests, and debugs until all tests pass. The TDD framework keeps the agent focused and goal-oriented.
 
 **Key Highlights:**
