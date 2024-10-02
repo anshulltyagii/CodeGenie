@@ -4,15 +4,21 @@
 
 [![tddGPT: ReactJS Counter App with GPT3.5](https://cdn.loom.com/sessions/thumbnails/7f56ab1b478049baa299813c223526bd-with-play.gif)](https://www.loom.com/share/7f56ab1b478049baa299813c223526bd)
 
-tddGPT is an autonomous coding agent that builds applications in ReactJS, Flask, Express, and more, all while adhering to the Test-Driven Development (TDD) methodology. It operates entirely without human intervention. Beginning with a project plan, tddGPT translates requirements into tests, develops code based on those tests, and debugs until all tests pass. The TDD framework keeps the agent focused and goal-oriented.
+CodeSage is an autonomous coding agent that builds applications in ReactJS, Flask, Express, and more, all while adhering to the Test-Driven Development (TDD) methodology. It operates entirely without human intervention. Beginning with a project plan, CodeSage translates requirements into tests, develops code based on those tests, and debugs until all tests pass. The TDD framework keeps the agent focused and goal-oriented.
 
-The core architecture is elegantly simple, utilizing just three tools: CLI, ReadFile, and WriteFile. It has been adpated from Langchain's AutoGPT example. Most enhancements were performed by ChatGPT Plus itself over the course of a month-long chat. The initially aim was to test the limits of GPT-4's capabilities in building ReactJS apps end-to-end. In the process, it gained an understanding of temporal concepts like past, present, and future, as well as cause and effect.
+**Key Highlights:**
 
-Utilizing GPT-4 Turbo and GPT-4 Vision, the system is capable of transforming wireframes or screenshots, in conjunction with detailed user stories, into fully functional applications, complete with all necessary tests. The expanded context window of GPT-4 Turbo facilitates its functioning as an integrated team comprising a Product Owner, Programmer, and Tester. This enhanced capacity allows for the handling of significantly more intricate and detailed user stories.
+- **Autonomous Development:** CodeSage operates without any human intervention, from planning to debugging.
+- **Versatile Technology Stack:** Capable of building applications in ReactJS, Flask, Express, and more.
+- **Test-Driven Development:** Adheres strictly to TDD methodology, ensuring robust and reliable code.
+- **Simple Yet Powerful Architecture:** Utilizes just three tools: CLI, ReadFile, and WriteFile.
+- **Adapted from Langchain's AutoGPT:** Enhanced significantly by ChatGPT Plus over a month-long chat.
+- **Temporal Understanding:** Gained insights into temporal concepts like past, present, and future, as well as cause and effect.
+- **Advanced Capabilities:** Utilizes GPT-4 Turbo and GPT-4 Vision to transform wireframes or screenshots into fully functional applications.
+- **Expanded Context Window:** Functions as an integrated team comprising a Product Owner, Programmer, and Tester.
+- **Continuous Learning:** Evaluates its mistakes and areas for improvement, incorporating insights into its operating prompts.
 
-The agent is not just a code generator; it’s also a learner. It evaluates its mistakes and areas for improvement as a final step, and some of these insights have already been incorporated into its operating prompts.
-
-This project is in early alpha stage. GPT-4 API key is required. 
+This project is in the early alpha stage. A GPT-4 API key is required.
 
 ## Setup Instructions
 
@@ -32,7 +38,7 @@ python3 -m venv env
   ```
 3. Clone the repository to your local machine:
 ```
-git clone https://github.com/sankethchebbi/tddGPT.git
+git clone https://github.com/anshulltyagii/CodeSage.git
 
 ```
 4. Navigate to the project directory:
@@ -47,7 +53,7 @@ python setup.py install
 
 6. Set up your GPT-4 API keys as environment variables.
 ```
-export OPENAI_API_KEY="sk-..."
+export OPENAI_API_KEY="at-..."
 ```
 
 7. Run the main.py
@@ -66,23 +72,10 @@ The following are some apps have been built by this agent.
 - [Task Tracker](https://brilliant-biscotti-3f9e48.netlify.app/) - built with GPT4
 - [Counter App](https://counter-app-tddgpt.netlify.app/) - built with fine-tuned GPT3.5
 
-## Similar Projects
-
-- [Aider](https://github.com/paul-gauthier/aider)
-- [Smol Developer](https://github.com/smol-ai/developer)
-- [GPT-Engineer](https://github.com/AntonOsika/gpt-engineer)
-- [Mentat](https://github.com/biobootloader/mentat)
-
-
 ## Contributing
 
 We welcome contributions to this project. Please feel free to submit issues and pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-
-## License
-
-This project is open source, under the [MIT license](LICENSE).
-
 ## Contact
 
-If you have any questions or comments, please feel free to reach out to us on GitHub.
+If you have any questions or comments, please feel free to reach out on GitHub.
