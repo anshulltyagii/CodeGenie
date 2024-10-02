@@ -2,11 +2,11 @@
 
 "Programmers have programmed themselves out of jobs" - Unknown
 
-CodeSage is an autonomous coding agent that builds applications in ReactJS, Flask, Express, and more, all while adhering to the Test-Driven Development (TDD) methodology. It operates entirely without human intervention. Beginning with a project plan, CodeSage translates requirements into tests, develops code based on those tests, and debugs until all tests pass. The TDD framework keeps the agent focused and goal-oriented.
+CodeGenie is an autonomous coding agent that builds applications in ReactJS, Flask, Express, and more, all while adhering to the Test-Driven Development (TDD) methodology. It operates entirely without human intervention. Beginning with a project plan, CodeGenie translates requirements into tests, develops code based on those tests, and debugs until all tests pass. The TDD framework keeps the agent focused and goal-oriented.
 
 **Key Highlights:**
 
-- **Autonomous Development:** CodeSage operates without any human intervention, from planning to debugging.
+- **Autonomous Development:** CodeGenie operates without any human intervention, from planning to debugging.
 - **Versatile Technology Stack:** Capable of building applications in ReactJS, Flask, Express, and more.
 - **Test-Driven Development:** Adheres strictly to TDD methodology, ensuring robust and reliable code.
 - **Simple Yet Powerful Architecture:** Utilizes just three tools: CLI, ReadFile, and WriteFile.
@@ -36,7 +36,7 @@ python3 -m venv env
   ```
 3. Clone the repository to your local machine:
 ```
-git clone https://github.com/anshulltyagii/CodeSage.git
+git clone https://github.com/anshulltyagii/CodeGenie.git
 
 ```
 4. Navigate to the project directory:
